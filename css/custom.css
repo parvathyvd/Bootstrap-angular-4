@@ -5,46 +5,14 @@ html, body {
   width: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #25CED1; }
+  color: #393E41; }
 
-/*home-section */
-#home {
-  height: 100%; }
+button {
+  margin: 1rem 0 2rem 0; }
 
-.cover-container {
-  background: url("../img/bg.jpg") center center no-repeat fixed;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center; }
-
-.inner-cover {
-  width: 100%; }
-
-.my-counting {
-  color: #fff;
+p.output {
+  color: #633e82;
+  font-weight: 10rem;
   font-size: 2rem; }
 
-a.social-link i {
-  color: white;
-  font-size: 2rem;
-  padding-right: 1rem;
-  position: relative;
-  bottom: 0;
-  transition: all 0.25s ease-in-out; }
-
-a.social-link i:hover {
-  bottom: 5px; }
-
 /* xs and smaller */
-@media (max-width: 575px) {
-  .inner-cover {
-    width: 70%;
-    display: block;
-    margin: 0 auto;
-    padding: 0 2rem; }
-    .inner-cover h1 {
-      font-size: 1rem; }
-    .inner-cover a.social-link i {
-      font-size: 0.5rem; } }
